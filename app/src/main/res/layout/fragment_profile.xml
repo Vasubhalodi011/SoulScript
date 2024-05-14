@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_Fragment">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNav"
+        android:layout_marginBottom="15dp" />
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="180sp"
+        android:layout_height="300sp"
+        android:background="#FDEDEB">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/vasu_patel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:fontFamily="@font/worksans"
+            android:gravity="center"
+            android:text="VASU BHALODI" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="250sp"
+        android:layout_height="300sp"
+        android:layout_marginLeft="185sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/worksans"
+            android:text="Profile"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60sp"
+            android:fontFamily="@font/worksans"
+            android:text="Profession"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85sp"
+            android:fontFamily="@font/worksans"
+            android:text="Contractor"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110sp"
+            android:fontFamily="@font/worksans"
+            android:text="Contact"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130sp"
+            android:fontFamily="@font/worksans"
+            android:text="+91 9998999469"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:fontFamily="@font/worksans"
+            android:text="Location"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175sp"
+            android:fontFamily="@font/worksans"
+            android:text="Sita naghar chokti pravat patiya surat"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:fontFamily="@font/worksans"
+            android:text="Location"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="215sp"
+            android:fontFamily="@font/worksans"
+            android:text="Position"
+            android:textSize="20sp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
